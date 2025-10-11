@@ -28,13 +28,6 @@ export const MenuList = props => {
       show: siteConfig('EXAMPLE_MENU_ARCHIVE', null, CONFIG)
     },
     {
-      id: 3,
-      icon: 'fas fa-folder',
-      name: locale.COMMON.CATEGORY,
-      href: '/category',
-      show: siteConfig('EXAMPLE_MENU_CATEGORY', null, CONFIG)
-    },
-    {
       id: 4,
       icon: 'fas fa-tag',
       name: locale.COMMON.TAGS,
