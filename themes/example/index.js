@@ -129,13 +129,6 @@ const LayoutPostList = props => {
 
   return (
     <>
-      {/* 显示分类 */}
-      {category && (
-        <div className='pb-12'>
-          <i className='mr-1 fas fa-folder-open' />
-          {category}
-        </div>
-      )}
       {/* 显示标签 */}
       {tag && <div className='pb-12'>#{tag}</div>}
 
