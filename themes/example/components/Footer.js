@@ -11,15 +11,7 @@ export const Footer = props => {
 
       <div className='container mx-auto max-w-4xl py-6 md:flex flex-wrap md:flex-no-wrap md:justify-between items-center text-sm'>
         <CopyRightDate />
-        <div className='md:p-0 text-center md:text-right text-xs'>
-          
-          <div className='flex flex-wrap'>
-            {' '}
-            <BeiAnSite />
-            <BeiAnGongAn />
-          </div>
-          <PoweredBy />
-        </div>
+        
       </div>
     </footer>
   )
