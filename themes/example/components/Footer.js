@@ -12,8 +12,7 @@ export const Footer = props => {
       <div className='container mx-auto max-w-4xl py-6 md:flex flex-wrap md:flex-no-wrap md:justify-between items-center text-sm'>
         <CopyRightDate />
         <div className='md:p-0 text-center md:text-right text-xs'>
-          {/* 右侧链接 */}
-          {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
+          
           <div className='flex flex-wrap'>
             {' '}
             <BeiAnSite />
